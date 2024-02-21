@@ -1,0 +1,35 @@
+body {
+    background-color:rgba(0, 0, 255, 0.4);
+}
+h1.html {
+    background-color:aquamarine;
+    color: rgb(255, 0, 0);
+    box-sizing:border-box;
+}
+p.definition {
+    background-color:black;
+    color:rgb(255, 255,255);
+    box-sizing:border-box;
+}
+* {
+    padding: 10px 15px 20px 25px;
+    margin: 10px 10px 10px 10px;
+    width: 30px 15px 30px 0px;
+}
+div.details {
+    background-color:brown;
+    box-sizing:border-box;
+    font-weight: bold;
+}
+div.submit {
+    background-color: #1111;
+    color:aliceblue;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1.student {
+    Color: #111111;
+    text-align:center;
+    font-weight: bolder;
+}
