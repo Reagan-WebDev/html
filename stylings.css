@@ -1,0 +1,36 @@
+body {
+    background-image: url('file:///C:/Users/DELL/Downloads/background%20image_files/images(36)');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+div.login {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: auto;
+}
+div.head {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+div.username {
+    color: black;
+}
+div.password {
+    color: black;
+}
+div.Login {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+div.Login:hover {
+    background-color: grey;
+}
+div.forgot {
+    text-decoration: none;
+    text-align: right;
+}
