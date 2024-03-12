@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conic Gradients</title>
+    <style>
+        .conic {
+            height: 250px;
+            width: 250px;
+            background-image: repeating-conic-gradient( red 10%,green 20%);
+            border-radius: 50%;
+            margin: 50%;
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px red, 2px 2px 4px blue, 2px 2px 4px green, 2px 2px 5px black, 2px 2px 4px yellow;
+        }
+        .image {
+            width: 200px;
+            height: 200px;
+            margin-left: 100px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .clip {
+            border: 2px solid black;
+            overflow: hidden;
+            text-overflow: clip;
+            width: 200px;
+            white-space: nowrap;
+
+        }
+        .clip:hover {
+            overflow: visible;
+        }
+        .ellipsis {
+            border: 2px solid black;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 200px;
+        }
+        .ellipsis:hover {
+            overflow: visible;
+        }
+        .word-break {
+            width: 200px;
+            border: 2px solid black;
+            word-wrap: break-word;
+        }
+        span.vertical {
+            writing-mode: vertical-rl;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="conic"></div>
+    <h1>ReaganOT</h1>
+    <p>Images</p>
+    <div class="image"><img src="download (1).jpeg" alt="image" width="200px" height="200px"></div>
+    <div class="clip"><span class="vertical">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Id eos repellat commodi unde. Eveniet cupiditate fugiat, illo molestiae sint deserunt ipsam commodi assumenda, nemo incidunt, earum ipsa eligendi sed officia.</div><br><br>
+    <div class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad maxime velit non, nam dolores earum veritatis nisi doloribus reiciendis dicta. Quas deleniti ipsa modi odit recusandae earum architecto officiis sint.</div>
+    <br><br>
+    <div class="word-break">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nihil maxime sint nemo eius, optio, porro repudiandae harum minus rem incidunt assumenda officia consequatur, cumque consectetur amet? Expedita, rerum eum?</div>
+</body>
+</html>

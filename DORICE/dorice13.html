@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimationImage</title>
+    <style>
+        div {
+            transform: translate(100px, 200px);
+            position: relative;
+            animation-name: image;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes image {
+            0% {left: 0px; top: 0px;}
+            25% {left: 200px; top: 0px;}
+            50% {left: 200px; top: 200px;}
+            75% {left: 0px; top: 200px;}
+            100% {left: 0px; top: 0px}
+        }
+    </style>
+</head>
+<body>
+    <div><img src="download.jpeg" alt="image" width="200" height="200" ></div>
+</body>
+</html>
