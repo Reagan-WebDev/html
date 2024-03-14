@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        .container {
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+        .container .btn {
+            position: absolute;
+            top:  50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            padding: 10px 12px;
+            transition-duration: 1s;
+            cursor: pointer;
+        }
+        .container .btn:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="forest.jpeg" alt="forest" height="300px" width="300px">
+        <button class="btn">Button</button>
+    </div>
+</body>
+</html>
