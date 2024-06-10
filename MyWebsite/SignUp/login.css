@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #7171c2, #353563);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.login {
+    border: 2px solid white;
+    max-width: 300px;
+    max-height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+}
+h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    letter-spacing: 2px;
+}
+.submit {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.submit a:hover {
+    background-color:grey;
+}
+.fname label {
+    color: white;
+}
+.lname label {
+    color: white;
+}
+.pwd label {
+    color: white;
+}

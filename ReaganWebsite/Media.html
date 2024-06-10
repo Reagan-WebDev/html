@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        h1 {
+            color: black;
+        }
+        body {
+            background-color: blue;
+        }
+        p {
+            color: green;
+        }
+        @media screen and (max-width: 900px){
+            body {background-color: red;}
+            h1 {color: blue; text-transform: uppercase;}
+            p {color: black;}
+        }
+        @media screen and (max-width: 500px) {
+            body {background-color: yellow;}
+            p {display: none}
+            h1 {writing-mode: vertical-rl;}
+        }    
+        </style>
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <p>The background color of the window changes blue to red when you resize the window of the browser.</p>
+</body>
+</html>

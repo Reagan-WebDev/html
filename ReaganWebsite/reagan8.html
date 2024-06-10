@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        :root {
+            --blue: #7b7bd4;
+            --white: #b8b4b4;
+            --black: #524e4e;
+        }
+        body {
+            background-color: var(--black);
+        }
+        .var {
+            background-color: var(--blue);
+            width: 50%;
+            border: 2px solid var(--white);
+            transform: translate(100px, 100px);
+        }
+        h1 {
+            color: var(--white);
+            border-bottom: 3px solid var(--black);
+        }
+        p {
+            color: var(--white);
+        }
+        .box1 {
+            width: 400px;
+            height: 400px;
+            border: 2px solid white;
+            box-sizing: border-box;
+        }
+        .box2 {
+            width: 400px;
+            height: 400px;
+            padding: 50px;
+            border: 2px solid white;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="var">
+        <h1>CSS Variables</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere doloremque numquam quia porro mollitia minus officiis. Atque, nulla ullam, iste consectetur, dolor blanditiis dolores dignissimos veniam sunt et accusantium.</p>
+    </div><br><br><br><br><br><br><br>
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ducimus inventore, facilis amet hic nesciunt iusto ratione obcaecati unde eligendi consequuntur ut soluta, aliquam repellendus veniam dolorum ipsa in? Nostrum?</p>
+    </div><br><br>
+    <div class="box2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora velit non aut ea! Voluptatum debitis molestias, repudiandae tempore iusto quaerat, nemo expedita architecto magni amet commodi nulla, minus animi perferendis?</p>
+    </div>
+</body>
+</html>

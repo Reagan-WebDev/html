@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded images</title>
+    <style>
+        div.border {
+            border-radius:50%;
+            box-shadow: 3px 3px 6px 10px blue, 3px 3px 6px 10px red;
+            filter: sepia(100%);
+            transform: translate(200px, 300px);
+        }
+        div.reflection {
+            -webkit-box-reflect: below 50px; 
+        }
+        div.reflect {
+            font-weight: bolder;
+            color: black;
+            text-shadow: 2px 2px 4px blue;
+            -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+        }
+        div.object img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="border"><img src="download (1).jpeg" alt="image_girl"></div>
+    <div class="reflection"><img src="download.jpeg" alt="image1"></div>
+    <div class="reflect">REAGAN</div><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="object"><img src="download (1).jpeg" alt="image2" width="200" height="250"></div>
+</body>
+</html>

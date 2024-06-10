@@ -21,6 +21,19 @@
             position: absolute;
             z-index: 1;
             width: 200px;
+            top: 120%;
+            left: 50%;
+            margin-left: -20px;
+        }
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            right: 80%;
+            margin-right: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
         }
         .tooltip:hover .tooltiptext {
             visibility: visible;

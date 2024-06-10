@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+div.login {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:auto;
+    width: 500px;
+}
+div.login > h1.Title {
+    color: white;
+    text-transform: uppercase;
+    text-align:center;
+}
+div.username {
+    color:white;
+}
+div.password {
+    color:white;
+}
+a {
+    text-decoration: none;
+    padding-left: 0%;
+}
+a:hover {
+    color: red;
+}

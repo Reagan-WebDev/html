@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Functions</h1>
+    <p id="demo"></p>
+    <script>
+        function Volume(radius, height) {
+            return PI * radius**2 * height;
+        }
+        const PI = 3.142;
+        let result = Volume(7, 10);
+        document.getElementById("demo").innerHTML = "The Volume of the Cylinder is " + result;
+    </script>
+</body>
+</html>

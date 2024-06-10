@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+        .pagination {
+            display: inline-block;
+            transform: translate(20px, 500px);
+        }
+        .pagination a {
+            border: 2px solid black;
+            border-right: 2px solid black;
+            color: black;
+            float: left;
+            padding: 15px 15px;
+            text-decoration: none;
+            transition: background-color 1s;
+            font-size: 20px;
+            margin: 0 4px;
+        }
+        .pagination a:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .pagination a:last-child {
+            border-right: 2px solid black;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .pagination a.active {
+            background-color: red;
+            color: white;
+        }
+        .pagination a:hover:not(.active) {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pagination</h1>
+    <div class="center">
+        <div class="pagination">
+            <a href="services.html">&laquo; </a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="home.html">&raquo;</a>
+        </div>
+    </div>
+</body>
+</html>

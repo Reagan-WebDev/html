@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Functions</h1>
+    <p id="area"></p>
+    <script>
+        const PI = 3.142;
+        let result = AreaOfCircle(7);
+        document.getElementById("area").innerHTML = "The area of the Circle is " + result;
+        function AreaOfCircle(radius) {
+            return PI * radius * radius;
+        }
+    </script>
+</body>
+</html>
