@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body style="background-color: lightblue;" id="demo2">
+    <h1>JavaScript Regular Expression</h1>
+    <button onclick="myFunction()">Click Me!</button>
+    <p id="demo"></p>
+    <script>
+        let text = "Carman Autos Limited";
+        let wordsearch = text.search(/Limited/i);
+        function myFunction() {
+            document.getElementById("demo").innerHTML = wordsearch;
+        }
+    </script>
+    <h1>Replace Method</h1>
+    <button onclick="myFunction1()">Click!</button>
+    <p id="demo1">My Name is Reagan Oluoch Omondi</p>
+    <script>
+        let text1 = "My Name is Reagan Oluoch Omondi";
+        let change = text1.replace(/omondi/i,"Otieno");
+        function myFunction1() {
+            document.getElementById("demo1").innerHTML = change;
+        }
+    </script>
+    <button onclick="myFunction2()">Change background-color!</button>
+    <script>
+        function myFunction2() {
+            document.getElementById("demo2").style.background = "red";
+        }
+    </script>
+</body>
+</html>
