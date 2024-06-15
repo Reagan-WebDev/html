@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>JavaScript Classes</h1>
+    <button onclick="myFunction()">Name</button>
+    <p id="demo"></p>
+    <script>
+        class student {
+            constructor (name,year) {
+                this.name = name;
+                this.year = year;
+            }
+        }
+        const Student1 = new student("Reagan", 2022);
+        const Student2 = new student("Jeff", 2022);
+        function myFunction() {
+            document.getElementById("demo").innerHTML = Student1.name + "," + Student1.year + "<br>" + Student2.name + "," + Student2.year;
+        }
+    </script>
+</body>
+</html>
