@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+#myLabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+.buttons .myButtons{
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(240, 70%, 78%);
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttons .myButtons:hover {
+    background-color: blue;
+    transition: 1.5s;
+} 
