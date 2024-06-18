@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+#myRoll {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+#myRoll:hover {
+    background-color: black;
+    color: white;
+    transition: 1.5s;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
