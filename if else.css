@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+}
+.mydiv {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px black;
+}
+#myLabel {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#myInput {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#myButton {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#myButton:hover {
+    background-color: grey;
+    transition: 1.5s;
+}
