@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+.pay {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    box-shadow: 2px 2px 4px black;
+}
