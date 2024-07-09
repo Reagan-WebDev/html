@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="JSCalculator.css">
+</head>
+<body>
+    <div id="myCalculator">
+        <input id="display" placeholder="0" readonly>
+        <div id="keys">
+            <button onclick="myInput('+')" class="operator">+</button>
+            <button onclick="myInput('7')">7</button>
+            <button onclick="myInput('8')">8</button>
+            <button onclick="myInput('9')">9</button>
+            <button onclick="myInput('-')" class="operator">-</button>
+            <button onclick="myInput('4')">4</button>
+            <button onclick="myInput('5')">5</button>
+            <button onclick="myInput('6')">6</button>
+            <button onclick="myInput('*')" class="operator">*</button>
+            <button onclick="myInput('1')">1</button>
+            <button onclick="myInput('2')">2</button>
+            <button onclick="myInput('3')">3</button>
+            <button onclick="myInput('/')" class="operator">/</button>
+            <button onclick="myInput('0')">0</button>
+            <button onclick="myInput('.')">.</button>
+            <button onclick="result()">=</button>
+            <button onclick="clearInput()" class="operator">c</button>
+        </div>
+    </div>
+    <script src="JSCalculator.js"></script>
+</body>
+</html>
