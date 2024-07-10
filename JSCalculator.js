@@ -7,7 +7,7 @@ function clearInput() {
 }
 function result() {
     try {
-        display.value = eval(display.value);
+        display.value = eval(display.value).toFixed(7);
     }
     catch(error)  {
         display.value = "Syntax Error";
